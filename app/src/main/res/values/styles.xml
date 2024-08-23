@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Tema Principal do Aplicativo -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+    </style>
+
+    <!-- Estilos para TextViews -->
+    <style name="styleHeaderResultado" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="styleValorResultado" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="styleTituloSecao" parent="TextAppearance.AppCompat.Headline">
+    </style>
+
+    <!-- Estilos para TextViews básicos -->
+    <style name="styleTituloApp" parent="TextAppearance.AppCompat">
+    </style>
+
+    <style name="styleLabelNormal" parent="TextAppearance.AppCompat">
+    </style>
+
+    <style name="styleLabelTituloResultado" parent="styleLabelNormal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilos para EditText e Botões -->
+    <style name="styleEditText" parent="Widget.AppCompat.EditText">
+    </style>
+
+    <style name="styleContainedButton" parent="Widget.MaterialComponents.Button">
+    </style>
+
+    <style name="TemaResultado" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/corResultado</item>
+        <item name="colorPrimaryDark">@color/corResultado</item>
+        <item name="colorAccent">@color/corResultado</item>
+        <item name="android:windowBackground">@color/corResultado</item>
+    </style>
+
+</resources>
